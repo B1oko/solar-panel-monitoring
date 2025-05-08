@@ -1,1 +1,4 @@
-# solar-panel-monitoring
+
+
+
+kubectl apply -k k8s/overlays/dev

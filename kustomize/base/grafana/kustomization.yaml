@@ -1,0 +1,7 @@
+resources:
+  - configmap.yaml
+
+configMapGenerator:
+  - name: grafana-dashboard-files
+    files:
+      - grafana/provisioning/dashboards/dashboards.json

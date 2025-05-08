@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-config
+  namespace: solar-panel-monitoring
+data:
+  prometheus.yaml: |
+    # Contenido de tu archivo prometheus.yaml aquí
